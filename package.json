@@ -77,6 +77,8 @@
     "@types/node": "^8.0.47",
     "@types/promise.prototype.finally": "^2.0.2",
     "chart.js": "^2.7.2",
+    "code-push": "^2.0.6",
+    "cordova-plugin-code-push": "^1.11.15",
     "font-awesome": "4.7.0",
     "ionic-angular": "^3.9.2",
     "ionicons": "3.0.0",
@@ -109,7 +111,10 @@
     "electron": false
   },
   "cordova": {
-    "platforms": []
+    "platforms": [],
+    "plugins": {
+      "cordova-plugin-file": {}
+    }
   },
   "main": "desktop/electron.js",
   "build": {
